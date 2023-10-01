@@ -1,0 +1,70 @@
+
+body{ /*배경 설정하는곳 아래 url에 파일 넣으면댐*/
+    /* background-repeat : 반복조절 */
+    background-image: url('brown-paper-text-space_53876-95444.avif');
+    background-repeat: repeat;
+    background-size: cover;
+  /*   background-position: top; */
+  }
+
+
+h1 {
+    /* 폰트 사이즈는 index에서 설정 */
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 .main-title  /* 타이틀에 언더라인 */
+{
+    text-decoration: underline double;
+}
+
+h1 .sub-title /* 타이틀에 언더라인 없애기 */
+{
+    text-decoration: none;
+}
+
+h3,h4 /*메뉴판 아래 설명 */
+{
+    text-align: center;
+
+
+}
+
+h2 /*대표메뉴 */
+{ 
+    color: aqua;
+    font-size: 40px;
+
+
+}
+
+me1 
+{ /*메뉴이름 및 가격*/
+    font-size: 20px;
+    color: red;
+
+
+}
+me2 
+{ /*메뉴 설명부분*/
+    font-size: 15px;
+    color: yellow;
+}
+
+
+
+
+/* 폰트 추가해야됨 대한체 */
+@font-face { 
+    font-family: 'Daehan-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Daehan-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+li{
+    float: left;
+
+}
+
