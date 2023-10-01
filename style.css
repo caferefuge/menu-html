@@ -1,0 +1,50 @@
+
+
+
+h1{
+    
+    color: red;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight : 900 ;
+    text-decoration : underline double;
+ 
+
+
+}
+
+h2{ /*대표메뉴 */
+    color: aqua;
+    font-size: 40px;
+
+
+}
+
+me1{ /*메뉴이름 및 가격*/
+    color: brown;
+    font-size: 20px;
+
+
+
+}
+me2{ /*메뉴 설명부분*/
+    color: black;
+    font-size: 15px;
+
+
+}
+
+
+/* 폰트 추가해야됨 대한체 */
+@font-face { 
+    font-family: 'Daehan-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Daehan-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+li{
+    float: left;
+
+}
+
