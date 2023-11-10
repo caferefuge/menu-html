@@ -1,0 +1,246 @@
+
+body{ /*배경 설정하는곳 아래 url에 파일 넣으면댐*/
+    /* background-repeat : 반복조절 */
+    background-image: url('assets/brown-paper-text-space_53876-95444.avif');
+    background-repeat: repeat;
+    background-size: cover;
+  /*   background-position: top; */
+    font-family: 'DaehanR', sans-serif;
+  }
+
+  p {
+    line-height: 1.4; /* 문장 간의 간격을 조절합니다. */
+}
+
+@font-face {
+    font-family: 'DaehanB';
+    src: url('font/DaehanB.ttf') format('truetype');
+    /* 폰트 파일의 경로를 적절히 수정하세요. */
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DaehanR';
+    src: url('font/DaehanR.ttf') format('truetype');
+    /* 폰트 파일의 경로를 적절히 수정하세요. */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+  h1 /* 폰트 사이즈는 index에서 설정 */
+  {
+      
+      color: black;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-size: 20px; 
+      font-family: 'DaehanB', sans-serif; /* DaehanB 폰트를 h1 요소에 적용 */
+      font-weight: 900;
+
+  }
+  
+  h1 .main-title  /* 타이틀에 언더라인 */
+  {
+      text-decoration: underline;
+
+  }
+  
+  h1 .sub-title /* 타이틀에 언더라인 없애기 */
+  {
+      text-decoration: overline;
+  }
+
+
+
+h2  /* 상단 설명 부분 변경*/
+{
+    text-align: center; /* 텍스트 가운데 정렬 */
+    color:black; /* 글자 색상 변경 (예: 주황색) */
+    font-size: 37px; /* 글꼴 크기 변경 (예: 24px) */
+    margin-bottom: 1px;
+    margin-top: 0px;
+    font-weight: 900;
+
+}
+h3
+{
+    text-align: left; /* 텍스트 가운데 정렬 */
+    color:black; /* 글자 색상 변경 (예: 주황색) */
+    font-size: 30px; /* 글꼴 크기 변경 (예: 24px) */
+    font-weight: 900;
+    margin-bottom: 1px;
+    margin-top: 1px; 
+}
+
+
+
+h4  /* 하단 설명 부분 변경*/
+{
+    text-align: center; /* 텍스트 가운데 정렬 */
+    color:black; /* 글자 색상 변경 (예: 주황색) */
+    font-size: 27px; /* 글꼴 크기 변경 (예: 24px) */
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-weight: 900;
+
+}
+h5
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.First { /*첫번째 박스 크기 조정*/
+    width: 49%;
+    height: 1100px;
+    font-weight: 900;
+    float: left;
+    margin-bottom: 20px; /* 12와의 간격을 조절합니다. */
+}
+
+
+
+.Second { /*두번째 박스 크기 조정*/
+    width: 50%;
+    height: 1100px;
+    border-left: 3px solid black;
+    float: left;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.Third {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px; /* 내용과 가장자리 사이의 간격을 조절하세요. */
+    font-weight: 900;
+}
+
+
+
+/* p 태그에 대한 스타일 (메뉴 아이템) */
+p.menu-item {
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    text-indent: 1px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-weight: 900;
+
+}
+
+/* p 태그에 대한 스타일 (메뉴 설명 부분) */
+p.menu-description {
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+/* p 태그에 대한 스타일 (메뉴 가격 부분) */
+p.menu-item .menu-price {
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+    float: right;
+    width: 113px; /* 적절한 크기로 조정하세요 */
+}
+span.star {
+    font-size: 20px; /* 원하는 크기로 조정하세요. */
+
+  }
+
+
+/* 이미지와 설명을 감싸는 컨테이너 스타일 */
+.image-description-container {
+    display: flex; /* 이미지와 설명을 가로로 나란히 배치 */
+    align-items: center; /* 수직 가운데 정렬 */
+    margin-bottom: 20px; /* 컨테이너들 간의 간격 조절 */
+}
+
+/* 이미지 컨테이너 스타일 */
+.image-container {
+    margin-right: 10px; /* 이미지와 설명 사이의 간격 조절 */
+}
+
+/* 이미지에 대한 스타일 */
+.image-container img {
+    width: 200px;
+    height: 150px;
+}
+
+/* 설명 컨테이너 스타일 */
+.description-container {
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+/* 이미지 이름에 대한 스타일 */
+/* .image-name {
+    font-weight: bold; 
+} */
+
+
+
+
+
+#modal-container {
+    display: none;
+    /* 다른 스타일 속성들 */
+}
+
+#modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    text-align: center;
+}
+
+#modal-image {
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+@media (min-width: 1840px) { /* Lenovo Tab P12의 너비에 맞게 수정 */
+    .First, .Second {
+        width: 50%; /* 화면의 반만 차지하도록 50%로 설정 */
+        height: auto;
+        float: left; /* 왼쪽으로 부유하도록 설정하여 옆으로 나오게 함 */
+        border: none;
+    }
+
+    /* 다른 요소들에 대한 스타일 변경도 추가 가능 */
+}
+
+
+
+
+* { /*단어 선택 불가능하게 만드는것*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
